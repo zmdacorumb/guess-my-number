@@ -13,14 +13,6 @@ const displayScore = score => {
 //隨機數字
 let num = Math.round(Math.random() * 20);
 
-// const button = document.querySelector('.check');
-// const disableButton = () => {
-//   console.log('va');
-//   button.disabled = true;
-// };
-
-// button.addEventListener('click', disableButton);
-
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
   const dqt = document.querySelector('.message').textContent;
